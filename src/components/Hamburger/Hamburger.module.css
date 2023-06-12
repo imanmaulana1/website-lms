@@ -1,0 +1,83 @@
+.hamburgerWrapper {
+  position: fixed;
+  display: none;
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  z-index: 997;
+}
+
+.btn {
+  background-color: #2f58cd;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.7;
+  transition: all .5s linear;
+  -webkit-transition: all .5s linear;
+  -moz-transition: all .5s linear;
+  -ms-transition: all .5s linear;
+  -o-transition: all .5s linear;
+}
+
+.btn:hover, .btn:active{
+  opacity: 1;
+}
+
+.icon {
+  color: #fff;
+}
+
+@media only screen and (max-width: 992px) {
+  .btn {
+    width: 80px;
+    height: 80px;
+  }
+
+  .icon {
+    font-size: 1.5rem;
+  }
+
+  .hamburgerWrapper {
+    display: block;
+    top: 80%;
+    left: 85%;
+  }
+
+  .hamburgerWrapper:hover {
+    filter: brightness(70%);
+    -webkit-filter: brightness(70%);
+  }
+}
+
+@media only screen and (max-width: 599px) {
+  .btn {
+    width: 50px;
+    height: 50px;
+  }
+
+  .icon {
+    font-size: 1rem;
+  }
+
+  .hamburgerWrapper {
+    top: 80%;
+    left: 82%;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .hamburgeWrapper {
+    top: 75%;
+    left: 85%;
+  }
+}

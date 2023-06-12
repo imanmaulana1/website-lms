@@ -1,0 +1,15 @@
+.headerWrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.textHeader {
+  font-weight: 500;
+}
+
+
+.loadingWrapper {
+  height: 400px;
+  width: 100%;
+}

@@ -1,0 +1,29 @@
+.headerWrap {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.filterWrap {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.filter {
+  background-color: #dadada;
+  font-size: 14px;
+  padding: 2px 10px;
+  border: 1px solid #dadada;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  cursor: pointer;
+}
+
+.filter:hover {
+  background-color: #fff;
+}

@@ -1,0 +1,54 @@
+.headerWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.loadingWrapper {
+  height: 400px;
+  width: 100%;
+}
+
+.textHeader {
+  font-weight: 500;
+}
+
+.listUser {
+  margin: 5% 0;
+}
+
+.listUser li {
+  width: 90%;
+  list-style-type: none;
+  border-bottom: 1px solid #ccc;
+  padding: 15px 10px;
+  display: flex;
+  align-items: center;
+  column-gap: 30%;
+}
+
+.listUser li p:nth-child(1) {
+  width: 20%;
+}
+
+.inputWrapper {
+  margin: 0 !important;
+}
+
+.btnWrapper{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.input {
+  width: 350px !important;
+  border: none !important;
+  border-bottom: 1px solid #ddd !important;
+}
+
+.input:disabled {
+  background-color: #fff;
+  color: #000;
+  border-bottom: none !important;
+}

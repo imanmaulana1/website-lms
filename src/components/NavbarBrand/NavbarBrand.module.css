@@ -1,0 +1,16 @@
+.navbarLogo {
+  width: 200px;
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.logo {
+  width: 35px;
+}
+
+@media only screen and (max-width: 799px) {
+  .navbarLogo {
+    justify-content: center;
+  }
+}

@@ -1,0 +1,71 @@
+.filterWrap {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.filter {
+  background-color: #dadada;
+  font-size: 12px;
+  padding: 2px 10px;
+  border: 1px solid #dadada;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  cursor: pointer;
+}
+
+.filter:hover {
+  background-color: #fff;
+}
+
+.cardWrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 20px;
+  row-gap: 50px;
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+
+.card {
+  padding: 50px 0;
+}
+
+.iconAdd {
+  font-size: 100px;
+  color: #dadada;
+}
+
+.loadingWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.paginationWrapper {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+
+@media only screen and (max-width: 992px) {
+  .cardWrapper {
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: 0%;
+  }
+
+  .card {
+    padding: 20px 0;
+  }
+}
+
+@media only screen and (max-width: 599px) {
+  .paginationWrapper {
+    padding-top: 20px;
+    padding-bottom: 100px;
+  }
+}

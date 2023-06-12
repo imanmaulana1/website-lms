@@ -1,0 +1,77 @@
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.cardLink {
+  color: #252525;
+}
+
+.cardLink:hover {
+  color: #8e8e8e;
+}
+
+.imgCard {
+  width: 150px;
+  height: 150px;
+}
+
+.cardInActive {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #d8d8d8;
+  opacity: 0.7;
+}
+
+.active {
+  font-size: 10px;
+  padding: 2px 8px;
+  color: #fff;
+  background-color: green;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.inactive {
+  font-size: 10px;
+  padding: 2px 8px;
+  color: #fff;
+  background-color: red;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.btnWrapper {
+  display: flex;
+  gap: 10px;
+}
+
+.btn.btnDelete {
+  background-color: rgb(255, 59, 59) !important;
+  color: #fff;
+}
+
+.btn.btnEdit {
+  background-color: rgb(255, 193, 59) !important;
+  color: #fff;
+}
+
+.btn.btnOpen {
+  background-color: rgb(59, 65, 255) !important;
+  color: #fff;
+}
+
+.btn.btnOpen:hover,
+.btn.btnEdit:hover,
+.btn.btnDelete:hover {
+  color: rgb(56, 56, 56);
+}

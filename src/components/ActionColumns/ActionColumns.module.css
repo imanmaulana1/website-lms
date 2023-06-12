@@ -1,0 +1,27 @@
+.btn.btnDelete {
+  background-color: rgb(255, 59, 59) !important;
+  color: #fff;
+}
+
+.btn.btnEdit {
+  background-color: rgb(255, 193, 59) !important;
+  color: #fff;
+}
+
+.btn.btnDetail {
+  background-color: rgb(59, 154, 255) !important;
+  color: #fff;
+}
+
+.btn.btnDetail:hover,
+.btn.btnEdit:hover,
+.btn.btnDelete:hover {
+  color: rgb(255, 255, 255);
+  border: 1px solid #dadada;
+}
+
+@media screen and (max-width: 600px) {
+  .btn {
+    width: 80px;
+  }
+}

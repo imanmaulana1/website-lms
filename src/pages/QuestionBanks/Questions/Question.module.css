@@ -1,0 +1,202 @@
+.main {
+  width: 95%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: flex-start;
+  margin-top: 2%;
+}
+
+.sidebar {
+  width: 25%;
+}
+
+.formHeader {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.questionWrapper {
+  background-color: #fafafa;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  padding-bottom: 20px;
+}
+
+.questionGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.questionBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+}
+
+.questionBox:hover {
+  filter: brightness(95%);
+  -webkit-filter: brightness(95%);
+}
+
+.questionBox.active {
+  background-color: #007aff;
+  color: #ffffff;
+}
+
+.box {
+  border-bottom: 3px dashed #ccc;
+  padding: 20px;
+}
+
+.box p:nth-child(1) {
+  color: #007aff;
+  font-weight: 600;
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+
+.btnWrapper {
+  padding: 20px 15px;
+}
+
+.btn {
+  width: 100%;
+  padding: 10px 0;
+  color: #ffffff;
+  background-color: #007bff84;
+  border: none;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.questionWrapper {
+  flex: 1;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  padding-bottom: 0;
+}
+
+.questionHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  border-bottom: 1px solid #ccc;
+}
+
+.questionBtn {
+  background-color: #ddd;
+  border: 1px solid #ddd;
+  padding: 10px 20px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.questionBody {
+  padding: 20px 50px 50px 50px;
+  line-height: 30px;
+  font-size: 18px;
+}
+
+.questionBoxs {
+  padding: 10px 0;
+}
+
+.formGroup {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.input {
+  cursor: pointer;
+  width: 15px;
+  height: 15px;
+}
+
+.questionFooter {
+  background-color: #d2f2f7;
+  border: none;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btnGroup {
+  display: flex;
+  column-gap: 10px;
+}
+
+.loadingWrapper {
+  display: flex;
+  justify-content: center;
+  padding: 92px 0;
+}
+
+@media screen and (max-width: 992px) {
+  .questionGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .questionGrid {
+    grid-template-columns: 1fr;
+    padding: 0 20px;
+    overflow-x: scroll;
+  }
+
+  .box {
+    padding: 20px 0;
+  }
+
+  .box p:nth-child(1) {
+    font-weight: 600;
+    font-size: 14px;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+}

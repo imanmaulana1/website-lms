@@ -1,0 +1,12 @@
+.inputWrapper {
+  width: 80%;
+  margin-top: 3%;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 992px) {
+  .inputWrapper{
+    flex-direction: column;
+  }
+}

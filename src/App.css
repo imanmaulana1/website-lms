@@ -1,38 +1,53 @@
-.App {
-  text-align: center;
+.ant-table-thead tr > td,
+.ant-table-thead th {
+  background-color: #2f58cd !important;
+  color: #fff !important;
+  text-align: center !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.ant-table-cell .ant-table-row-expand-icon-cell .ant-table-tbody td {
+  border-bottom: 1px solid #dadada !important;
+  text-align: center I !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.ant-table-tbody td:nth-child(1) {
+  border-left: 1px solid #dadada !important;
+}
+
+.ant-table-tbody td:nth-child(5) {
+  text-align: center !important;
+}
+
+.ant-table-tbody td:nth-child(6) {
+  border-right: 1px solid #dadada !important;
+  text-align: center !important;
+}
+
+.ant-table-tbody .ant-table-row.ant-table-row-level-0 .ant-table-cell {
+  text-align: center !important;
+}
+
+.footer {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .aside {
+    display: none;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .site-layout {
+    margin-left: 0 !important;
   }
-  to {
-    transform: rotate(360deg);
+
+  .footer {
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+    width: 100%;
+    padding: 0;
+    background-color: #001529;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
   }
 }
