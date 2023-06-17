@@ -68,6 +68,10 @@ Because there is no register feature, for the first time, please log in as admin
   password: secret
 ```
 After that you can create your own account by accessing the users page
+
+## Demo
+https://devedu-lms.vercel.app/
+
 ## Screenshots
 
 - Login Page
