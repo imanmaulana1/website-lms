@@ -1,70 +1,104 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# DevEdu LMS
 
-## Available Scripts
+This project is the final project of the Dev FG bootcamp.
 
-In the project directory, you can run:
 
-### `npm start`
+## Run Locally
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Clone the project
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```bash
+  git clone https://github.com/imanmaulana1/website-lms.git
+```
 
-### `npm test`
+Go to the project directory
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+  cd website-lms
+```
 
-### `npm run build`
+Install dependencies
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+  npm install
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Start the server
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+  npm run start
+```
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Pages
+- Login 
+- Register 
+- Users
+- Classes 
+- Detail Class 
+- Question Banks 
+- Detail Question Bank
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Rules
+There are 3 roles
+- Admin : All routes
+- Trainer : All routes except Users Page
+- Student : All routes except Users Page and Question Banks Page, cannot create update or delete data
+## Tech Stack
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+**Client:** React.JS
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+**Framework Component:** Ant Design
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Features
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Login 
+- CRUD Classes
+- CRUD Users
+- CRUD Question Banks
+- CRUD Class Member
+- CRUD Class Material
+- CRUD Class Profile
 
-### Code Splitting
+Because there is no register feature, for the first time, please log in as admin with the following account
+```bash
+  username: admin@getnada.com
+  password: secret
+```
+After that you can create your own account by accessing the users page
+## Screenshots
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Login Page
+![App Screenshot](https://i.ibb.co/HXvyMpy/Login-Page.png)
+#
+- Register Page
+![App Screenshot](https://i.ibb.co/L6Sxbb8/Register-Page.png)
+#
+- Classes Page
+![App Screenshot](https://i.ibb.co/JkW815d/Home-Page.png)
+#
+- Users Page
+![App Screenshot](https://i.ibb.co/ZHQY3gp/Users-Page.png)
+#
+- Question Banks Page
+![App Screenshot](https://i.ibb.co/tLLtSr5/List-Question-Banks-Page.png)
+#
+- Detail Question Bank Page
+![App Screenshot](https://i.ibb.co/PQp7ybp/Detail-Question-Bank-Page.png)
+#
+- Detail Class
+![App Screenshot](https://i.ibb.co/wy7Dzhh/Detail-Class-Page.png)
+#
+- Materials Class
+![App Screenshot](https://i.ibb.co/4TLVPXq/Material-Page.png)
+#
+- Members Class
+![App Screenshot](https://i.ibb.co/CssDQTd/Member-Page.png)
+#
+- Certificate Class
+![App Screenshot](https://i.ibb.co/0MwS5Nz/Certificate-Page.png)
+#
+- Profile Class
+![App Screenshot](https://i.ibb.co/8bX0SNw/Profile-Page.png)
