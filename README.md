@@ -70,14 +70,11 @@ Because there is no register feature, for the first time, please log in as admin
 After that you can create your own account by accessing the users page
 
 ## Demo
-https://devedu-lms.vercel.app/
+[https://devedu-lms.vercel.app/](https://candid-taiyaki-ce0185.netlify.app/)
 
 ## Screenshots
 
 - Login Page
-![App Screenshot](https://i.ibb.co/HXvyMpy/Login-Page.png)
-#
-- Register Page
 ![App Screenshot](https://i.ibb.co/L6Sxbb8/Register-Page.png)
 #
 - Classes Page
