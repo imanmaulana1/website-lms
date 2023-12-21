@@ -2,6 +2,8 @@
 # DevEdu LMS
 
 This project is the final project of the Dev FG bootcamp.
+## Demo
+[https://devedu-lms.vercel.app/](https://candid-taiyaki-ce0185.netlify.app/)
 
 
 ## Run Locally
@@ -68,9 +70,6 @@ Because there is no register feature, for the first time, please log in as admin
   password: secret
 ```
 After that you can create your own account by accessing the users page
-
-## Demo
-[https://devedu-lms.vercel.app/](https://candid-taiyaki-ce0185.netlify.app/)
 
 ## Screenshots
 
